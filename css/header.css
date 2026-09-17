@@ -48,6 +48,23 @@
   color: #404bbf;
   text-decoration: underline;
 }
+.link.decor {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.link.decor::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  border-radius: 2px;
+  bottom: 19px;
+  width: 100%;
+  height: 4px;
+  background: #404bbf;
+}
+
 .contacts {
   display: flex;
   align-items: center;
