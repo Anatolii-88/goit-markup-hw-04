@@ -77,7 +77,7 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.portfolio-image-wrapper:hover .overlay {
+.portfolio-card:hover .overlay {
   transform: translateY(0);
 }
 .portfolio-image-wrapper {
