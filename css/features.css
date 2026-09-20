@@ -33,13 +33,9 @@
 .decoration {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 25px 99px;
-  width: 264px;
-  height: 116px;
+  height: 112px;
   background: #f4f4fd;
 }
