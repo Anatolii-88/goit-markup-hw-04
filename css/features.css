@@ -28,5 +28,18 @@
   padding: 120px 0;
 }
 .subtitle {
-  margin-bottom: 8px;
+  margin: 8px 0;
+}
+.decoration {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 25px 99px;
+  width: 264px;
+  height: 116px;
+  background: #f4f4fd;
 }

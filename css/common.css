@@ -60,3 +60,8 @@ img {
   clip-path: inset(100%);
   margin: -1px;
 }
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

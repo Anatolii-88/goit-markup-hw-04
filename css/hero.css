@@ -25,6 +25,7 @@
   border-radius: 4px;
   padding: 16px 32px;
   margin: 0 auto;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -40,17 +41,4 @@
   background-repeat: no-repeat;
   max-width: 1440px;
   margin: 0 auto;
-}
-.dicoration {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  padding: 25px 99px;
-  width: 264px;
-  height: 116px;
-  background: #f4f4fd;
 }

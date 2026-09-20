@@ -16,6 +16,7 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
 .footer {
   background-color: #2e2f42;
@@ -23,6 +24,21 @@
 }
 .footer .container {
   display: flex;
-  flex-direction: column;
+}
+.footer-info {
+  margin-right: 120px;
+}
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+.footer-socials .social-list {
   gap: 16px;
+}
+.footer .social-link:hover {
+  background-color: #31d0aa;
 }
